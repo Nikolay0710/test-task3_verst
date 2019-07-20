@@ -1,0 +1,92 @@
+/* --------------- reset.css --------------- */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i,  dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    background: transparent none repeat scroll 0 0; /* чтобы не проскакивали левые фоны, установленные по умолчанию */
+    border: 0 none;
+    font-size: 100%;											   /* размер шрифта всем одинаковый */
+    line-height: 1;
+    margin: 0;
+    outline: 0 none;											 /* обнуляем отступы и убираем бордюры */
+    padding: 0;
+    vertical-align: baseline; 									 /* приводим все к одной базовой линии */                   
+}
+a {                                      	     /* ссылка не в общем списке чтобы не сбрасывать outline по умолчанию */
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+	outline:none;
+	text-decoration: none;
+}
+table {						/* устраняем отступы между ячейками таблицы */
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+td, td img {
+	vertical-align: top;			/* возвращаем привычное вертикальное выравнивание */
+} 
+input, select, button, textarea {
+	margin: 0; 				/* убираем отступы по умолчанию для элементов форм (в частности для checkbox и radio) */
+	font-size: 100%; 			/* делаем размер шрифтов везде одинаковым */
+	outline: none;
+}
+input[type="checkbox"] { 		/* вертикальное выравнивание чекбоксов и радиобатонов относительно меток */
+	vertical-align: bottom;
+}
+input[type="radio"] {
+	vertical-align: text-bottom;
+}
+sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	list-style:none;
+}
+/* --------------- /reset.css --------------- */
+/* --------------- базовые настройки --------- */
+html {
+	min-height:100%; /* всегда показываем вертикальную полосу прокрутки  */
+}
+body {
+	background: none repeat scroll 0% 0% rgba(255, 255, 255, 1);
+	color: rgba(77, 77, 77, 1);
+	text-align: left;
+	font: 1em LatoLig, 'Raleway-ExtraLight', sans-serif;
+	min-height: 100%;
+}
+body ul li { list-style-type: none; margin-bottom: 10px; }
+a, a:visited { /* порядок правил для ссылок имеет значение */
+	color: rgba(77, 77, 77, 1);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:focus, a:active {
+	color: #c83867;
+	text-decoration: underline;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+}
+img{
+	height: 170px;
+}
+.clr{
+	clear:both;
+}
+.hiddCode { overflow: hidden; }
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* --------------- /базовые настройки --------- */

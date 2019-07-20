@@ -1,0 +1,26 @@
+/* Link sprites images */
+.postArrow01, .postIcon02, .postIcon03, .postIcon04, .postIcon05 {
+	background: rgba(0,0,0,0) url('../images/sprites.png') no-repeat scroll 0% 0% / 57px 80px;
+}
+
+/* Styles sprites positions */
+
+.postArrow01 {
+	background-position: 0 0;
+}
+
+.postIcon02 {
+	background-position: 0 -3px;
+}
+
+.postIcon03 {
+	background-position: 1.5px -25px;
+}
+
+.postIcon04 {
+	background-position: 0 -40px;
+}
+
+.postIcon05 {
+	background-position: 0 -60px;
+}

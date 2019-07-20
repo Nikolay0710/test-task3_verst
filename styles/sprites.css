@@ -1,0 +1,31 @@
+@import url('./postIcon.css'); /* Connect sprites images position */
+
+/* Adjustment sprites */
+
+.arrow {
+	display: inline-block;
+    height: 8px;
+	margin-left: 10px;
+	width: 17px;
+}
+
+#icon02 {
+    height: 23px;
+    width: 10px;
+}
+
+#icon03 {
+	height: 15px;
+	width: 20px;
+}
+
+#icon04 {
+	height: 20px;
+	width: 18px;
+}
+
+#icon05 {
+	height: 22px;
+	width: 10px;
+}
+/* Adjustment sprites */

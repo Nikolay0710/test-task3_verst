@@ -228,9 +228,9 @@ a, a:hover {
 	color: #fff;
 }
 .postSlider {
-    background: rgba(0,0,0,0) url('../images/bgSlider.png') no-repeat scroll 0% 0% / 458px 1600px;
+    background: rgba(0,0,0,0) url('../images/bgSlider.png') no-repeat scroll 0% 0% / 680px 509px;
     background-color: rgba(74,57,73,1);
-    background-position: center center;
+    background-position: right center;
     background-size: contain;
     padding: 37px 0 0;
 }

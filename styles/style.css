@@ -320,6 +320,7 @@ a, a:hover {
 		/* Style for blockVideoText and blockInfoText */
 		#VideoInfo {
 			padding: 20px;
+			text-align: left;
 		}
 			.video { 
 				margin-top: 20px;
